@@ -1,0 +1,308 @@
+/* Google Fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* <!-- #############
+common styles 
+############################ --> */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+/* <!-- #############
+header starts here
+############################ --> */
+
+
+
+header{
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    padding:50px 0 80px 0;
+    
+}
+.header{
+    
+    width:1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-left h1{
+    font-size: 64px;
+    font-weight: 700;
+    color:#FFFFFF;
+    line-height: 80px;
+    margin-bottom: 27px;
+}
+.header-left button{
+    background-color: #E02C6D;
+    color:#FFFFFF;
+    font-size:16px;
+    padding: 10px 24px;
+    border-radius: 4px;
+    overflow: hidden;
+    
+
+}
+.header-left button i{
+    margin-left: 8px;
+}
+.header-left button:hover{
+    cursor:pointer;
+    box-shadow:0px 0px 10px 5px rgba(0,0,0,0.5);
+    
+    
+}
+.header-right{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.img-1 img{
+    width:556px;
+    height: 438px;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+.img-2 img{
+    width: 50px;
+    height: 50px;
+   position: relative;
+   bottom:168px;
+    left:180px;
+    
+    border-radius: 10px;
+    
+    transition:transform 2s ease-in-out;
+    
+    
+    
+}
+header:hover .img-2 img{
+    transform: translate(-320px);
+    cursor:pointer;
+}
+
+
+
+/* <!-- #############
+main starts here
+############################ --> */
+main{
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    
+}
+
+.blog{
+    
+    background-color: #FFFFFF;
+    box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding-right: 15px;
+    padding-bottom:28px;
+
+    
+}
+.blog:hover{
+    box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.blog-img img{
+    width:300px;
+    height:256px;
+    margin-left: 15px;
+    margin-top:15px;
+}
+.blog-details{
+    width: 300px;
+    margin-left: 15px;
+}
+.blog-details h1{
+    font-size:28px;
+    font-weight: 700;
+    color:#18191F;
+    margin-top: 16px;
+    margin-bottom:10px;
+
+}
+.blog-details p{
+    font-size:16px;
+    font-weight: 400;
+    color:#6C6C6C;
+    margin:0px;
+}
+
+/* ############
+cricket  starts here
+############# */
+.cricket{
+    margin-top:80px;
+    display: flex;
+    height:300px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+     
+}
+aside{
+   
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;  
+}
+.cricket-blogs{
+    
+    width:480px;
+    height:300px;
+   
+}
+.cricket-img img{
+    width:140px;
+    height:100px;
+}
+.cricket-details h2{
+    font-size:24px;
+    color:black;
+    margin: 12px 0;
+}
+.cricket-details p{
+    font-size:16px;
+    color:lightgoldenrodyellow;
+    margin-top:60px;
+    
+    
+}
+.cricket-field{
+    background-color: lightgreen;
+    display: flex;
+    flex-grow:1;
+}
+.cricket-field .bat-img img{
+    width:180px;
+    height:180px;
+    position:relative;
+    top:100px;
+   
+   
+    
+}
+.cricket-field .ball-img img{
+    width:80px;
+    height:80px;
+    position: relative;
+    top:180px;
+    right:60px;
+    transition: transform 1s ease-in 1s;
+    
+}
+.cricket-field:hover .bat-img img{
+    
+    transform: rotate(-90deg);
+    transition:transform 1s ease-in-out;
+}
+.cricket-field:hover .ball-img img{
+   
+    transform:translate(500px);
+   
+   
+} 
+
+/* ############
+about us  starts here
+############# */
+section.about-us{
+    background-image: url(../images/cover.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   padding: 20px;
+    
+ 
+}
+.about-us-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.about-us-description h2{
+    font-size: 28px;
+    color:lightseagreen;
+    margin-bottom:0px;
+}
+.about-us-description p{
+    font-size: 18px;
+    color:lightsalmon;
+   
+    
+    
+}
+/* ############
+footer area starts here
+############# */
+footer{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.upper-footer{
+    
+    background-color: #FFFFFF;
+    
+   
+}
+.upper-footer img{
+    width:485px;
+    height:110px;
+
+}
+.lower-footer{
+    width:485px;
+    height:110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lower-footer .footer-icon{
+    display: flex;
+    flex-direction: row;
+}
+.lower-footer .footer-icon i{
+    color:lightcyan;
+    width:32px;
+    height: 32px;
+    border-radius: 16px;
+    margin:0px 14px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.lower-footer .footer-icon i:hover{
+    cursor:pointer;
+    color:lightcoral;
+    background-color: lightcyan;
+}
+.footer-copyright h3{
+    color:#000000;
+    
+    font-size:18px;
+}

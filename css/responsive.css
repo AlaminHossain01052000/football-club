@@ -1,0 +1,113 @@
+/* media query max-width 688px */
+
+@media only screen and (max-width:688px) {
+/* header starts here */
+header{
+  margin-bottom:47px;
+  padding-bottom:20px;
+  
+  
+ 
+}
+.header{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+.header-left{
+  display: flex;
+  flex-direction: column;
+}
+.header-left button{
+  padding:10px 24px;
+  width:29%;
+  border:0px;
+}
+
+.img-1 img{
+  width:330px;
+  height:260px;
+}
+
+
+.img-2 img{
+  width:35px;
+  height:35px;
+ position: relative;
+ bottom:100px;
+  left:105px;
+  
+  border-radius: 10px;
+  
+  transition:transform 2s ease-in-out;
+  
+  
+  
+}
+header:hover .img-2 img{
+  transform: translate(-250px);
+  
+}
+
+  /* main starts here */
+  .blogs{
+      grid-template-columns: repeat(1,1fr);
+      grid-row-gap: 24px;
+     
+  }
+  .blog{
+      width:100%;
+      padding-right: 0px;
+  }
+ 
+  .blog-img img{
+    margin-right: 15px;
+  }
+  /* cricket starts here */
+
+  aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    padding: 0px;
+  }
+  .cricket-details h2{
+    margin-bottom: 0px;
+  }
+  
+  .cricket-field .bat-img img{
+    width:180px;
+    height:180px;
+    position:relative;
+    top:0px;
+       
+}
+.cricket-field .ball-img img{
+  width:80px;
+  height:80px;
+  position: relative;
+  top:100px;
+  right:35px;
+  transition: transform 1s ease-in 1s;
+  
+}
+.cricket-field:hover .ball-img img{
+   
+  transform:translate(300px);
+ 
+ 
+}
+/* about us starts here */
+  section.about-us{
+    
+    width: 100%;
+    margin-top:188px;
+  }
+  
+  .about-us-description p{
+    width:80%;
+    
+  }
+}
