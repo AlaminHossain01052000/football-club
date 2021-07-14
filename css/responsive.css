@@ -151,7 +151,11 @@ header:hover .img-2 img{
     width:100%;
   }
   /* .cricket starts here */
-
+  .cricket{
+   
+    justify-content: center;
+    
+  }
   .cricket-field:hover .ball-img img{
    
     transform:translate(150px);
