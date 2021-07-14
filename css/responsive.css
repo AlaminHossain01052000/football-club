@@ -2,6 +2,14 @@
 
 @media only screen and (max-width:688px) {
 /* header starts here */
+.nav-icon{
+  display: block;
+}
+nav ul{
+  display: none;
+}
+
+
 header{
   margin-bottom:47px;
   padding-bottom:20px;
@@ -110,4 +118,68 @@ header:hover .img-2 img{
     width:80%;
     
   }
+}
+
+
+/* media query min-width 688px and max-width 992px  */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+  /* header starts here */
+  header{
+    padding-bottom:20px;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* main starts here */
+  .blogs{
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 27px;
+   
+  }
+  .blog{
+    width:100%;
+  }
+  /* .cricket starts here */
+
+  .cricket-field:hover .ball-img img{
+   
+    transform:translate(150px);
+   
+   
+  }
+  
+}
+/* media screen 757px */
+@media only screen and (min-width:688px) and (max-width:757px) {
+  /* header starts here */
+  .header-left{
+    margin-left: 20px;
+  }
+  /* .cricket starts here */
+  .cricket-field .bat-img img{
+    width:180px;
+    height:180px;
+    position:relative;
+    top:0px;
+       
+}
+  .cricket-field .ball-img img{
+    width:80px;
+    height:80px;
+    position: relative;
+    top:88px;
+    right:43px;
+    transition: transform 1s ease-in 1s;
+    
+  }
+  /* about us starts here */
+  section.about-us{
+    
+    width: 94.8%;
+    margin-top:208px;
+  } 
+  
 }
