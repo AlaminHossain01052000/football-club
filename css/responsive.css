@@ -110,12 +110,12 @@ header:hover .img-2 img{
 /* about us starts here */
   section.about-us{
     
-    width: 100%;
+    width: 88%;
     margin-top:188px;
   }
   
   .about-us-description p{
-    width:80%;
+    width:100%;
     
   }
 }

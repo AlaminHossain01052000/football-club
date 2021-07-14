@@ -125,7 +125,7 @@ nav ul li a{
     
 }
 header:hover .img-2 img{
-    transform: translate(-320px);
+    transform: translate(-280px);
     cursor:pointer;
 }
 
